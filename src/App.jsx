@@ -1,8 +1,8 @@
-import HomePage from "./pages/HomePage";
 import "./App.scss";
+import RoutesComponent from "./routes";
 
 const App = () => {
-  return <HomePage />;
+  return <RoutesComponent />;
 };
 
 export default App;
