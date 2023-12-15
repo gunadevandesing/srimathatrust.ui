@@ -1,0 +1,21 @@
+.knowaboutus-container {
+  width: 100%;
+  // aspect-ratio: 375/217;
+  background-color: #fff;
+  padding: 86px 110px;
+
+  .knowaboutus-content {
+    display: flex;
+
+    .knowaboutus-leftsection {
+      width: 60%;
+    }
+
+    .knowaboutus-video {
+      width: 40%;
+      aspect-ratio: 259/289;
+      border-radius: 20px;
+      background-image: url("../../assets/images/know-about-us.jpg");
+    }
+  }
+}
