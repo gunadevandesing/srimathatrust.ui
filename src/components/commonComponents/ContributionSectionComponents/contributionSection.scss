@@ -1,0 +1,54 @@
+@import "../../../project_constants.scss";
+.contribution-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 86px 110px;
+
+  .contribution-content {
+    width: 100%;
+    aspect-ratio: 10/3;
+    border-radius: 20px;
+    background: url("../../../assets/images/contibution-image.jpg") no-repeat;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    h2 {
+      width: 70%;
+      color: #fff;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 120%;
+    }
+    .button-section {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 1rem;
+
+      .yellow-button,
+      .white-button {
+        display: inline-flex;
+        padding: 16px 32px;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        backdrop-filter: blur(40px);
+        border: none;
+        border-radius: 4px;
+      }
+
+      .yellow-button {
+        background: $primary-yellow;
+      }
+      .white-button {
+        background: #fff;
+      }
+    }
+  }
+}
