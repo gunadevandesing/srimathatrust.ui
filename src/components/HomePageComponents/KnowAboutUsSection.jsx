@@ -12,24 +12,29 @@ const KnowAboutUSSection = () => {
     <div className="knowaboutus-container">
       <div className="knowaboutus-content">
         <div className="knowaboutus-leftsection">
-          <div className="knowaboutus-title">KNOW ABOUT US</div>
-          <div className="knowaboutus-header">Sri Matha Trust</div>
-          <div className="knowaboutus-subheader">
-            20 YEAR OF DEDICATED SELFLESS SERVICE
+          <div className="knowaboutus-title">
+            <span className="horizontal-line"></span>
+            KNOW ABOUT US
           </div>
-          <div className="knowaboutus-paragraph">
-            World’s deadliest disease is cancer. Different kinds of cancer have
-            been posing challenge to the entire humanity. Medical fraternity has
-            been doing research after research to contain the disease. Millions
-            of dollars are being spent to control the disease. Thanks to various
-            remedial measures taken by the doctors across the world, now a
-            situation has arrived that early deduction of cancer will facilitate
-            curing. This is a real good news. Yet this dreadful disease has not
-            been eradicated fully.
+          <div className="knowaboutus-textcontent">
+            <div className="knowaboutus-header">Sri Matha Trust</div>
+            <div className="knowaboutus-subheader">
+              20 YEAR OF DEDICATED SELFLESS SERVICE
+            </div>
+            <div className="knowaboutus-paragraph">
+              World’s deadliest disease is cancer. Different kinds of cancer
+              have been posing challenge to the entire humanity. Medical
+              fraternity has been doing research after research to contain the
+              disease. Millions of dollars are being spent to control the
+              disease. Thanks to various remedial measures taken by the doctors
+              across the world, now a situation has arrived that early deduction
+              of cancer will facilitate curing. This is a real good news. Yet
+              this dreadful disease has not been eradicated fully.
+            </div>
+            <button className="knowaboutus-learnmore" onClick={() => {}}>
+              Learn more
+            </button>
           </div>
-          <button className="knowaboutus-learnmore" onClick={() => {}}>
-            Learn more
-          </button>
         </div>
         <div className="knowaboutus-video"></div>
       </div>

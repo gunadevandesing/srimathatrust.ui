@@ -12,6 +12,8 @@
       width: 60%;
 
       .knowaboutus-title {
+        display: flex;
+        align-items: center;
         color: $primary-text;
         font-family: Roboto;
         font-size: 16px;
@@ -19,69 +21,67 @@
         font-weight: 700;
         line-height: normal;
         letter-spacing: 2px;
-        position: relative;
         margin-top: 90px;
 
-        &::before {
-          content: "";
-          width: 72px;
-          left: -96px;
-          top: 50%;
-          position: absolute;
-          border: 1px solid $primary-text;
+        .horizontal-line {
+          width: 7rem;
+          border-top: 2px solid $primary-text;
+          margin-right: 1rem;
         }
       }
+      .knowaboutus-textcontent {
+        margin-left: 8rem;
+        .knowaboutus-header {
+          color: $primary-text;
+          font-size: 48px;
+          font-family: Roboto;
+          font-weight: 700;
+          line-height: 57.6px;
+          word-wrap: break-word;
+          margin-top: 32px;
+        }
 
-      .knowaboutus-header {
-        color: $primary-text;
-        font-size: 48px;
-        font-family: Roboto;
-        font-weight: 700;
-        line-height: 57.6px;
-        word-wrap: break-word;
-        margin-top: 32px;
-      }
+        .knowaboutus-subheader {
+          color: $primary-text;
+          font-size: 27px;
+          font-family: Roboto;
+          font-weight: 400;
+          text-transform: capitalize;
+          line-height: 32.4px;
+          word-wrap: break-word;
+        }
 
-      .knowaboutus-subheader {
-        color: $primary-text;
-        font-size: 27px;
-        font-family: Roboto;
-        font-weight: 400;
-        text-transform: capitalize;
-        line-height: 32.4px;
-        word-wrap: break-word;
-      }
+        .knowaboutus-paragraph {
+          color: $primary-text;
+          font-size: 16px;
+          font-family: Roboto;
+          font-weight: 400;
+          line-height: 25.6px;
+          word-wrap: break-word;
+          margin-top: 17px;
+          margin-right: 40px;
+        }
 
-      .knowaboutus-paragraph {
-        color: $primary-text;
-        font-size: 16px;
-        font-family: Roboto;
-        font-weight: 400;
-        line-height: 25.6px;
-        word-wrap: break-word;
-        margin-top: 17px;
-        margin-right: 40px;
-      }
+        .knowaboutus-learnmore {
+          margin: 80px 0 20px;
+          display: inline-flex;
+          padding: 16px 32px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          border-radius: 4px;
+          background: $primary-yellow;
+          backdrop-filter: blur(40px);
+          border: none;
 
-      .knowaboutus-learnmore {
-        margin: 80px 0 20px;
-        display: inline-flex;
-        padding: 16px 32px;
-        justify-content: center;
-        align-items: center;
-        gap: 10px;
-        border-radius: 4px;
-        background: $primary-yellow;
-        backdrop-filter: blur(40px);
-        border: none;
-
-        color: #000;
-        text-align: right;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: normal;
+          color: #000;
+          text-align: right;
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+        }
       }
     }
 
