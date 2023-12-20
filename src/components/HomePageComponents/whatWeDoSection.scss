@@ -1,0 +1,97 @@
+@import "../../project_constants.scss";
+
+.whatwedo-container {
+  width: 100%;
+  // aspect-ratio: 375/217;
+  background-color: $secondary-yellow;
+  padding: 140px 110px 90px;
+
+  .whatwedo-content {
+    display: flex;
+
+    .whatwedo-leftsection {
+      width: 60%;
+      padding-right: 30px;
+
+      .whatwedo-title {
+        color: $primary-text;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+        position: relative;
+        top: -50px;
+
+        &::before {
+          content: "";
+          width: 72px;
+          left: -96px;
+          top: 50%;
+          position: absolute;
+          border: 1px solid $primary-text;
+        }
+      }
+
+      .whatwedo-header {
+        color: $primary-text;
+        font-size: 48px;
+        font-family: Roboto;
+        font-weight: 700;
+        line-height: 57.6px;
+        word-wrap: break-word;
+        margin-top: 32px;
+      }
+
+      .whatwedo-paragraph {
+        margin-top: 18px;
+        color: $secondary-text;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 160%;
+      }
+
+      .whatwedo-card-container {
+        margin-top: 20px;
+        margin-left: 16px;
+        width: 70%;
+
+        .whatwedo-card {
+          display: flex;
+          align-items: flex-start;
+          .card-content {
+            display: flex;
+            flex-direction: column;
+            .card-header {
+              color: $primary-text;
+              font-family: Roboto;
+              font-size: 24px;
+              font-style: normal;
+              font-weight: 700;
+              line-height: normal;
+            }
+            .card-paragraph {
+              color: $secondary-text;
+              font-family: Roboto;
+              font-size: 16px;
+              font-style: normal;
+              font-weight: 400;
+              line-height: 160%;
+            }
+          }
+        }
+      }
+    }
+
+    .whatwedo-video {
+      width: 40%;
+      aspect-ratio: 259/289;
+      border-radius: 20px;
+      background-image: url("../../assets/images/what-we-do.jpg");
+      background-repeat: no-repeat;
+    }
+  }
+}
