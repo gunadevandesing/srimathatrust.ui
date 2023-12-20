@@ -4,35 +4,33 @@
   width: 100%;
   // aspect-ratio: 375/217;
   background-color: $secondary-yellow;
-  padding: 140px 110px 90px;
+  padding: 90px 110px 90px;
+
+  .whatwedo-title {
+    display: flex;
+    align-items: center;
+    color: $primary-text;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 2px;
+    margin-bottom: 1.5rem;
+
+    .horizontal-line {
+      width: 7rem;
+      border-top: 2px solid $primary-text;
+      margin-right: 1rem;
+    }
+  }
 
   .whatwedo-content {
     display: flex;
-
+    margin-left: 8rem;
     .whatwedo-leftsection {
       width: 60%;
       padding-right: 30px;
-
-      .whatwedo-title {
-        color: $primary-text;
-        font-family: Roboto;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 700;
-        line-height: normal;
-        letter-spacing: 2px;
-        position: relative;
-        top: -50px;
-
-        &::before {
-          content: "";
-          width: 72px;
-          left: -96px;
-          top: 50%;
-          position: absolute;
-          border: 1px solid $primary-text;
-        }
-      }
 
       .whatwedo-header {
         color: $primary-text;
@@ -41,7 +39,6 @@
         font-weight: 700;
         line-height: 57.6px;
         word-wrap: break-word;
-        margin-top: 32px;
       }
 
       .whatwedo-paragraph {

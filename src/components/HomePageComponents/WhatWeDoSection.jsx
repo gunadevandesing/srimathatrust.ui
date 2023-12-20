@@ -37,9 +37,12 @@ const whatWeDoCards = [
 const WhatWeDoSection = () => {
   return (
     <div className="whatwedo-container">
+      <div className="whatwedo-title">
+        <span className="horizontal-line"></span>
+        WHAT WE DO
+      </div>
       <div className="whatwedo-content">
         <div className="whatwedo-leftsection">
-          <div className="whatwedo-title">WHAT WE DO</div>
           <div className="whatwedo-header">
             Services we provide for our cancer patient
           </div>
