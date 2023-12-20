@@ -1,5 +1,13 @@
+import KnowAboutUSSection from "../../components/AboutUsPageComponents/KnowAboutUsSection";
+import OurVisionSection from "../../components/AboutUsPageComponents/OurVisionSection";
+
 const AboutUsPage = () => {
-  return <div>AboutUsPage</div>;
+  return (
+    <>
+      <KnowAboutUSSection />
+      <OurVisionSection />
+    </>
+  );
 };
 
 export default AboutUsPage;
