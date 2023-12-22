@@ -2,6 +2,7 @@ import KnowAboutUSSection from "../../components/AboutUsPageComponents/KnowAbout
 import OurVisionSection from "../../components/AboutUsPageComponents/OurVisionSection";
 import ContributionSection from "../../components/commonComponents/ContributionSectionComponents/ContributionSection";
 import EventsSection from "../../components/commonComponents/EventsSectionComponents/EventsSection";
+import FooterComponent from "../../components/commonComponents/FooterComponents/FooterComponent";
 
 const AboutUsPage = () => {
   return (
@@ -10,6 +11,7 @@ const AboutUsPage = () => {
       <OurVisionSection />
       <ContributionSection />
       <EventsSection />
+      <FooterComponent />
     </>
   );
 };
