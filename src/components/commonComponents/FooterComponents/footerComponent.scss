@@ -1,0 +1,113 @@
+@import "../../../project_constants.scss";
+
+.footer-container {
+  width: 100%;
+  background-color: $primary-black;
+  padding: 86px 110px;
+
+  .footer-content {
+    width: 100%;
+    display: flex;
+
+    .footer-title {
+      color: #fff;
+      font-family: Roboto;
+      font-size: 24px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 44px;
+    }
+
+    .links-container {
+      margin: 0 2rem 0 6rem;
+      display: flex;
+
+      .links-list {
+        margin-top: 10px;
+        width: 150px;
+
+        .link-item {
+          margin-bottom: 1.5rem;
+          color: #fff;
+          font-family: Roboto;
+          font-size: 14px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 160%;
+
+          &:first-child {
+            font-size: 16px;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+
+    .subscribe-section {
+      display: flex;
+      flex-direction: column;
+      margin-top: 10px;
+
+      .subscribe-text {
+        color: #fff;
+        font-family: Roboto;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 140%;
+
+        width: 400px;
+        margin-bottom: 2rem;
+      }
+
+      .input-section {
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+        border: 1px solid rgba(235, 240, 249, 0.3);
+
+        input {
+          padding: 16px 24px;
+          height: 64px;
+          width: 400px;
+          background-color: transparent;
+          color: #fff;
+          border: none;
+          outline: none;
+
+          &::placeholder {
+            color: rgba(235, 240, 249, 0.3);
+            font-family: Roboto;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+          }
+        }
+
+        button {
+          display: inline-flex;
+          height: 64px;
+          padding: 16px 32px;
+          justify-content: center;
+          align-items: center;
+          gap: 10px;
+          flex-shrink: 0;
+          border: none;
+
+          color: $primary-text;
+          text-align: right;
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 500;
+          line-height: normal;
+
+          border-radius: 0 4px 4px 0;
+          background: #fff;
+          backdrop-filter: blur(40px);
+        }
+      }
+    }
+  }
+}
