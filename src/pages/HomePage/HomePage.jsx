@@ -1,3 +1,4 @@
+import DonationChartSection from "../../components/HomePageComponents/DonationChartSection";
 import KnowAboutUSSection from "../../components/HomePageComponents/KnowAboutUsSection";
 import ProjectsSection from "../../components/HomePageComponents/ProjectsSection";
 import VideoSection from "../../components/HomePageComponents/VideoSection";
@@ -14,6 +15,7 @@ const HomePage = () => {
       <KnowAboutUSSection />
       <WhatWeDoSection />
       <ProjectsSection />
+      <DonationChartSection />
       <ContributionSection />
       <EventsSection />
       <FooterComponent />
