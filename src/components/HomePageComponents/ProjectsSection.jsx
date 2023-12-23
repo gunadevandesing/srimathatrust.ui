@@ -1,3 +1,4 @@
+import ProjectsCard from "../commonComponents/ProjectsCardComponent";
 import "./projectsSection.scss";
 
 const projectCards = [
@@ -34,19 +35,7 @@ const ProjectsSection = () => {
         </div>
         <div className="projects-cardlist">
           {projectCards.map((cardItem) => (
-            <div
-              className={`projects-card project${cardItem.id}`}
-              key={cardItem.id}
-            >
-              <div className="card-text-content">
-                <h3 className="card-header">{cardItem.header}</h3>
-                <p className="card-paragraph">{cardItem.paragraph}</p>
-                <div className="button-section">
-                  <button onClick={() => {}}>Learn more</button>
-                </div>
-              </div>
-              <div className="overlay"></div>
-            </div>
+            <ProjectsCard cardItem={cardItem} key={cardItem.id} />
           ))}
         </div>
       </div>
