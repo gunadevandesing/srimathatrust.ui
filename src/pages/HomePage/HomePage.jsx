@@ -1,4 +1,5 @@
 import KnowAboutUSSection from "../../components/HomePageComponents/KnowAboutUsSection";
+import ProjectsSection from "../../components/HomePageComponents/ProjectsSection";
 import VideoSection from "../../components/HomePageComponents/VideoSection";
 import WhatWeDoSection from "../../components/HomePageComponents/WhatWeDoSection";
 import ContributionSection from "../../components/commonComponents/ContributionSectionComponents/ContributionSection";
@@ -12,6 +13,7 @@ const HomePage = () => {
       <VideoSection />
       <KnowAboutUSSection />
       <WhatWeDoSection />
+      <ProjectsSection />
       <ContributionSection />
       <EventsSection />
       <FooterComponent />
