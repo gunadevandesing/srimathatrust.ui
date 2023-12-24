@@ -1,4 +1,5 @@
 import "./knowAboutUsSection.scss";
+import ButtonComponent from "../commonComponents/ButtonComponent";
 
 import Logo1 from "../../assets/svg-icons/logo-1.svg";
 import Logo2 from "../../assets/svg-icons/logo-2.svg";
@@ -31,9 +32,12 @@ const KnowAboutUSSection = () => {
               of cancer will facilitate curing. This is a real good news. Yet
               this dreadful disease has not been eradicated fully.
             </div>
-            <button className="knowaboutus-learnmore" onClick={() => {}}>
-              Learn more
-            </button>
+            <ButtonComponent
+              customClassName="knowaboutus-learnmore"
+              buttonType="primary"
+              buttonText="Learn more"
+              onClick={() => {}}
+            />
           </div>
         </div>
         <div className="knowaboutus-video"></div>
