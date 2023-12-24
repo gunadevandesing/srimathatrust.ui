@@ -1,5 +1,6 @@
 import "./videoSection.scss";
 import PlayIcon from "../../assets/svg-icons/play-icon.svg";
+import ButtonComponent from "../commonComponents/ButtonComponent";
 
 const VideoSection = () => {
   return (
@@ -9,9 +10,11 @@ const VideoSection = () => {
           Inclusive care for cancer patients with special needs
         </div>
         <div className="button-section">
-          <button className="white-button" onClick={() => {}}>
-            What we do
-          </button>
+          <ButtonComponent
+            buttonType="secondary"
+            buttonText="What we do"
+            onClick={() => {}}
+          />
           <div className="playvideo-button">
             <img src={PlayIcon} alt="Play" />
             Play Video

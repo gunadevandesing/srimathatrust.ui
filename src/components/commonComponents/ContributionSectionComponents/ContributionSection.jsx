@@ -1,4 +1,6 @@
 import "./contributionSection.scss";
+import ButtonComponent from "../ButtonComponent";
+
 const ContributionSection = () => {
   return (
     <div className="contribution-container">
@@ -8,12 +10,16 @@ const ContributionSection = () => {
           needs!
         </h2>
         <div className="button-section">
-          <button className="yellow-button" onClick={() => {}}>
-            Join as a volunteer
-          </button>
-          <button className="white-button" onClick={() => {}}>
-            Donate
-          </button>
+          <ButtonComponent
+            buttonType="primary"
+            buttonText="Join as a volunteer"
+            onClick={() => {}}
+          />
+          <ButtonComponent
+            buttonType="secondary"
+            buttonText="Donate"
+            onClick={() => {}}
+          />
         </div>
       </div>
     </div>

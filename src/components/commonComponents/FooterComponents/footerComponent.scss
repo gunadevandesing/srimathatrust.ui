@@ -86,26 +86,8 @@
         }
 
         button {
-          display: inline-flex;
           height: 64px;
-          padding: 16px 32px;
-          justify-content: center;
-          align-items: center;
-          gap: 10px;
-          flex-shrink: 0;
-          border: none;
-
-          color: $primary-text;
-          text-align: right;
-          font-family: Roboto;
-          font-size: 16px;
-          font-style: normal;
-          font-weight: 500;
-          line-height: normal;
-
           border-radius: 0 4px 4px 0;
-          background: #fff;
-          backdrop-filter: blur(40px);
         }
       }
     }

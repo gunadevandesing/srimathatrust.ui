@@ -1,3 +1,4 @@
+import ButtonComponent from "./ButtonComponent";
 import "./projectsCardComponent.scss";
 
 import PropTypes from "prop-types";
@@ -11,7 +12,11 @@ const ProjectsCard = (props) => {
         <h3 className="card-header">{cardItem.header}</h3>
         <p className="card-paragraph">{cardItem.paragraph}</p>
         <div className="button-section">
-          <button onClick={() => {}}>Learn more</button>
+          <ButtonComponent
+            buttonType="secondary"
+            buttonText="Learn more"
+            onClick={() => {}}
+          />
         </div>
       </div>
       <div className="overlay"></div>

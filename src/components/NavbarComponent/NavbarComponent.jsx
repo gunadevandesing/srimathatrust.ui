@@ -1,6 +1,7 @@
 import { Link } from "react-router-dom";
 import Navbar from "react-bootstrap/Navbar";
 import "./navbarComponent.scss";
+import ButtonComponent from "../commonComponents/ButtonComponent";
 
 const NavbarComponent = () => {
   const handleDonate = () => {};
@@ -32,9 +33,12 @@ const NavbarComponent = () => {
           Contact
         </Link>
       </div>
-      <button className="donate-button" onClick={handleDonate}>
-        Donate
-      </button>
+      <ButtonComponent
+        customClassName="donate-button"
+        buttonType="navbar-btn"
+        buttonText="Donate"
+        onClick={handleDonate}
+      />
     </Navbar>
   );
 };

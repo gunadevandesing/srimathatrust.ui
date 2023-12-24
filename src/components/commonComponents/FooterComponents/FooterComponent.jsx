@@ -1,5 +1,7 @@
 import "./footerComponent.scss";
 
+import ButtonComponent from "../ButtonComponent";
+
 const FooterComponent = () => {
   return (
     <div className="footer-container">
@@ -36,7 +38,11 @@ const FooterComponent = () => {
           <div className="subscribe-text">Subscribe to get latest updates</div>
           <div className="input-section">
             <input type="email" placeholder="Your email" />
-            <button className="btn btn-primary subscribe-btn">Subscribe</button>
+            <ButtonComponent
+              buttonType="secondary"
+              buttonText="Subscribe"
+              onClick={() => {}}
+            />
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 44px; /* 183.333% */
+    line-height: 44px;
 
     margin-left: 110px;
     margin-right: 103px;
@@ -42,23 +42,6 @@
   }
 
   .donate-button {
-    display: flex;
-    padding: 12px 32px;
-    align-items: flex-start;
-    gap: 10px;
-
-    border: none;
-    border-radius: 4px;
-    background: $primary-text;
-
-    color: #fff;
-    text-align: right;
-    font-family: Roboto;
-    font-size: 16px;
-    font-style: normal;
-    font-weight: 500;
-    line-height: normal;
-
     margin-left: 100px;
   }
 }
