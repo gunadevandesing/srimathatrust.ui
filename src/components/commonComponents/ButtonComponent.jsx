@@ -30,7 +30,7 @@ ButtonComponent.defaultProps = {
   customClassName: "",
 };
 
-ButtonComponent.PropTypes = {
+ButtonComponent.propTypes = {
   buttonText: PropTypes.string.isRequired,
   buttonType: PropTypes.string,
   customClassName: PropTypes.string,

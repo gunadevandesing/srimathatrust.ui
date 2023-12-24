@@ -30,6 +30,7 @@
     .button-section {
       display: flex;
       margin-top: 3rem;
+      width: calc(100% - 14rem);
 
       .playvideo-button {
         display: inline-flex;
