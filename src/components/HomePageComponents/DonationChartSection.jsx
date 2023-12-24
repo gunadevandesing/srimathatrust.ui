@@ -66,7 +66,7 @@ const DonationChartSection = () => {
               <div className="legend-item" key={legendItem.id}>
                 <ColorSpan
                   className="legend-color"
-                  bgColor={legendItem.colorCode}
+                  $bgColor={legendItem.colorCode}
                 />
                 <span className="legend-text">{legendItem.text}</span>
               </div>
