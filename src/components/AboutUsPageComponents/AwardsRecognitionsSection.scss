@@ -1,0 +1,60 @@
+@import "../../project_constants.scss";
+.awards-container {
+  .awards-header {
+    color: $primary-text;
+    font-family: Roboto;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 56.7px;
+    margin: 2rem 0 2rem 8rem;
+    text-align: center;
+  }
+  .awards-logo-row {
+    grid-template-columns: repeat(4, 1fr);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+
+    .award-item {
+      align-items: center;
+      text-align: center; // Center text content
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+
+      .award-year {
+        align-items: center;
+        font-family: $primary-text;
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 38px;
+        letter-spacing: 0em;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .award-name {
+        font-family: $primary-text;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+
+      .award-description {
+        font-family: $primary-text;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 16px;
+        letter-spacing: 0px;
+        text-align: center;
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
