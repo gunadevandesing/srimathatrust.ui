@@ -12,7 +12,7 @@ const RoutesComponent = () => {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="aboutus" element={<AboutUsPage />} />
-      <Route path="/donation" element={<DonationPage />} />
+      <Route path="donation" element={<DonationPage />} />
       <Route path="*" element={<>Not found</>} />
     </Routes>
   );

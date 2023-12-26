@@ -34,7 +34,6 @@ const NavbarComponent = () => {
         </Link>
       </div>
       <ButtonComponent
-        customClassName="donate-button"
         buttonType="navbar-btn"
         buttonText="Donate"
         onClick={handleDonate}

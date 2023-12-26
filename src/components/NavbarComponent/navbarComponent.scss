@@ -9,6 +9,10 @@
   background: #fff;
   backdrop-filter: blur(15px);
   z-index: 1000;
+  padding: 0 110px;
+
+  display: flex;
+  justify-content: space-between;
 
   .nav-brand {
     color: #000;
@@ -17,9 +21,6 @@
     font-style: normal;
     font-weight: 700;
     line-height: 44px;
-
-    margin-left: 110px;
-    margin-right: 103px;
   }
 
   .nav-link-container {
@@ -27,7 +28,7 @@
     padding: 16px 20px;
     justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
 
     .nav-link-text {
       color: #525560;
@@ -39,9 +40,5 @@
 
       text-decoration: none;
     }
-  }
-
-  .donate-button {
-    margin-left: 100px;
   }
 }
