@@ -23,7 +23,7 @@
     }
   }
 
-  .knowaboutus-header {
+  .knowaboutus-header-aboutus {
     color: $primary-text;
     font-family: Roboto;
     font-size: 56px;
@@ -36,11 +36,12 @@
   .knowaboutus-content {
     display: flex;
 
-    .knowaboutus-video {
+    .knowaboutus-video-aboutus {
       width: 40%;
       aspect-ratio: 519/448;
       border-radius: 20px;
       background-image: url("../../assets/images/aboutus-video.jpg");
+      background-size: contain;
       background-repeat: no-repeat;
     }
 

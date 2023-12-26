@@ -7,12 +7,12 @@ const KnowAboutUSSection = () => {
         <span className="horizontal-line"></span>
         KNOW ABOUT US
       </div>
-      <div className="knowaboutus-header">
+      <div className="knowaboutus-header-aboutus">
         Sri Matha Trust <br />
         is a non-governmental organization
       </div>
       <div className="knowaboutus-content">
-        <div className="knowaboutus-video"></div>
+        <div className="knowaboutus-video-aboutus"></div>
         <div className="knowaboutus-rightsection">
           <div className="rightsection-paragraph">
             Sri Matha Trust was started in the year 2000, with the holy
