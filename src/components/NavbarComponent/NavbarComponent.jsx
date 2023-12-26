@@ -4,7 +4,7 @@ import "./navbarComponent.scss";
 import ButtonComponent from "../commonComponents/ButtonComponent";
 
 const NavbarComponent = () => {
-  const handleDonate = () => {};
+  // const handleDonate = () => {};
   return (
     <Navbar bg="light" data-bs-theme="light">
       <Navbar.Brand className="nav-brand" href="">
@@ -33,11 +33,14 @@ const NavbarComponent = () => {
           Contact
         </Link>
       </div>
-      <ButtonComponent
+      {/* <ButtonComponent
         buttonType="navbar-btn"
         buttonText="Donate"
         onClick={handleDonate}
-      />
+      /> */}
+      <Link className="donate-button" to="/donation">
+        Donate
+      </Link>
     </Navbar>
   );
 };
