@@ -19,6 +19,7 @@ const Journey = () => {
       desc: "Care homes",
     },
   ];
+  
   return (
     <div className="journey-container">
       <div className="journey-row">

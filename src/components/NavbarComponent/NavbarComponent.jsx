@@ -18,7 +18,7 @@ const NavbarComponent = () => {
         <Link className="nav-link-text" to="">
           What We Do
         </Link>
-        <Link className="nav-link-text" to="">
+        <Link className="nav-link-text" to="media">
           Media
         </Link>
         <Link className="nav-link-text" to="">
