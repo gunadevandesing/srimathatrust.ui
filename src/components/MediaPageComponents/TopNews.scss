@@ -1,0 +1,54 @@
+@import "../../project_constants.scss";
+.media-container {
+  .topnews-container {
+    width: 100%;
+    background-color: $secondary-yellow;
+    padding: 86px 110px;
+
+    .topnews-content {
+      width: 100%;
+      
+      .topnews-title {
+        display: flex;
+        align-items: center;
+        color: $primary-text;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+
+        .horizontal-line {
+          width: 7rem;
+          border-top: 2px solid $primary-text;
+          margin-right: 1rem;
+        }
+      }
+      .topnews-textcontent {
+        margin-left: 8rem;
+        display: flex;
+        justify-content: space-evenly;
+        .topnews-header {
+          color: $primary-text;
+          font-size: 48px;
+          font-family: Roboto;
+          font-weight: 700;
+          line-height: 57.6px;
+          word-wrap: break-word;
+          margin-top: 2rem;
+        }
+      }
+    }
+  }
+  .media-2,
+  .media-3 {
+    margin-left: 8rem;
+    padding: 30px;
+    max-width: 100%;
+    height: auto;
+  }
+  .media-3 {
+    margin-left: 18rem !important;
+  }
+}
