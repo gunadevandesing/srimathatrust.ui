@@ -1,0 +1,105 @@
+@import "../../project_constants.scss";
+
+.payment-container {
+  width: 100%;
+  background-color: #fff;
+  padding: 30px 110px;
+
+  .payment-content {
+    .payment-header {
+      color: #111729;
+      font-family: Roboto;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 125%;
+    }
+    form {
+      width: 35%;
+      max-width: 33.5rem;
+      .label-text {
+        display: block;
+        margin-bottom: 0.5rem;
+        color: #111729;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 165%;
+        letter-spacing: 0.08px;
+      }
+
+      input {
+        width: 100%;
+        height: 48px;
+        display: flex;
+        padding: 11px 16px;
+        align-items: flex-start;
+        gap: 12px;
+        align-self: stretch;
+        border-radius: 4px;
+        border: 1px solid #e3e8ef;
+        background: #fff;
+
+        color: #677489;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 165%;
+        letter-spacing: 0.08px;
+
+        &:active {
+          border: 2px solid #111729;
+        }
+      }
+
+      .input-labelsection {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+
+        .input-label {
+          width: 50%;
+        }
+      }
+
+      .payment-section {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 2rem;
+        margin-bottom: 1.5rem;
+
+        .payment-card {
+          width: 50%;
+          position: relative;
+          display: flex;
+          padding: 12px 16px;
+          flex-direction: column;
+          justify-content: center;
+          align-items: flex-start;
+          gap: 2px;
+          flex: 1 0 0;
+          cursor: pointer;
+
+          &.active {
+            border-radius: 12px;
+            border: 2px solid #111729;
+            background: #fff;
+
+            &::after {
+              content: url("../../assets/svg-icons/selected-radio.svg");
+
+              position: absolute;
+              right: 16px;
+              top: 12px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
