@@ -1,0 +1,75 @@
+@import "../../project_constants.scss";
+
+.donation-success-container {
+  width: 100%;
+  padding: 86px 0 120px;
+
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  .donation-success-content {
+    width: 66%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .donation-success-header {
+      margin: 2rem 0;
+      color: #6eae2e;
+      text-align: center;
+      font-family: Roboto;
+      font-size: 32px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+    }
+
+    .donation-confetti-text {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      gap: 1.5rem;
+
+      .flipY {
+        transform: rotateY(180deg);
+      }
+
+      .donation-success-text {
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+
+        .donation-amount {
+          font-weight: 700;
+        }
+      }
+    }
+
+    .share-with-others {
+      margin-top: 6rem;
+
+      p {
+        color: #000;
+        text-align: center;
+        font-family: Roboto;
+        font-size: 32px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+      }
+
+      .share-icons {
+        margin-top: 2.5rem;
+        display: flex;
+        justify-content: space-evenly;
+      }
+    }
+  }
+}

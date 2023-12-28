@@ -1,19 +1,24 @@
 import "./donationPaymentDetailsSection.scss";
 
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 import ButtonComponent from "../commonComponents/ButtonComponent";
 import CardIcon from "../../assets/svg-icons/card-icon.svg";
 import UPIIcon from "../../assets/svg-icons/upi-icon.svg";
 
-const DonationPaymentDetails = () => {
+const DonationPaymentDetails = (props) => {
+  const { setShowThanks } = props;
   const [selectedPayment, setSelectedPayment] = useState("card");
 
   const changePaymentMethod = (method) => {
     setSelectedPayment(method);
   };
 
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setShowThanks(true);
+  };
 
   return (
     <div className="payment-container">
@@ -107,6 +112,10 @@ const DonationPaymentDetails = () => {
       </div>
     </div>
   );
+};
+
+DonationPaymentDetails.propTypes = {
+  setShowThanks: PropTypes.function,
 };
 
 export default DonationPaymentDetails;
