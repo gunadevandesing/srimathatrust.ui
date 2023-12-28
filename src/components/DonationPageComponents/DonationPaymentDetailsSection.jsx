@@ -1,19 +1,24 @@
 import "./donationPaymentDetailsSection.scss";
 
 import { useState } from "react";
+import PropTypes from "prop-types";
 
 import ButtonComponent from "../commonComponents/ButtonComponent";
 import CardIcon from "../../assets/svg-icons/card-icon.svg";
 import UPIIcon from "../../assets/svg-icons/upi-icon.svg";
 
-const DonationPaymentDetails = () => {
+const DonationPaymentDetails = (props) => {
+  const { setShowThanks } = props;
   const [selectedPayment, setSelectedPayment] = useState("card");
 
   const changePaymentMethod = (method) => {
     setSelectedPayment(method);
   };
 
-  const handleSubmit = () => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setShowThanks(true);
+  };
 
   return (
     <div className="payment-container">
@@ -23,19 +28,13 @@ const DonationPaymentDetails = () => {
           <label htmlFor="donorName" className="label-text">
             Donor&apos;s Full Name
           </label>
-          <input type="text" id="donorName" name="donorName" required />
+          <input type="text" id="donorName" name="donorName" />
           <div className="input-labelsection">
             <div className="input-label">
               <label htmlFor="emailAddress" className="label-text">
                 Email
               </label>
-              <input
-                type="email"
-                id="emailAddress"
-                name="emailAddress"
-                aria-required="true"
-                required
-              />
+              <input type="email" id="emailAddress" name="emailAddress" />
             </div>
             <div className="input-label">
               <label htmlFor="phoneNo" className="label-text">
@@ -48,7 +47,6 @@ const DonationPaymentDetails = () => {
                 placeholder="+1 (123) 456-7890"
                 title=""
                 name="phoneNo"
-                required
               />
             </div>
           </div>
@@ -107,6 +105,10 @@ const DonationPaymentDetails = () => {
       </div>
     </div>
   );
+};
+
+DonationPaymentDetails.propTypes = {
+  setShowThanks: PropTypes.function,
 };
 
 export default DonationPaymentDetails;
