@@ -28,19 +28,13 @@ const DonationPaymentDetails = (props) => {
           <label htmlFor="donorName" className="label-text">
             Donor&apos;s Full Name
           </label>
-          <input type="text" id="donorName" name="donorName" required />
+          <input type="text" id="donorName" name="donorName" />
           <div className="input-labelsection">
             <div className="input-label">
               <label htmlFor="emailAddress" className="label-text">
                 Email
               </label>
-              <input
-                type="email"
-                id="emailAddress"
-                name="emailAddress"
-                aria-required="true"
-                required
-              />
+              <input type="email" id="emailAddress" name="emailAddress" />
             </div>
             <div className="input-label">
               <label htmlFor="phoneNo" className="label-text">
@@ -53,7 +47,6 @@ const DonationPaymentDetails = (props) => {
                 placeholder="+1 (123) 456-7890"
                 title=""
                 name="phoneNo"
-                required
               />
             </div>
           </div>
