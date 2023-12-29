@@ -16,6 +16,10 @@ const ContactUs = lazy(() => import("./pages/ContactUsPage/ContactUsPage.jsx"));
 const ProjectReadMore1 = lazy(() =>
   import("./pages/ProjectReadMore/ProjectReadMore1.jsx")
 );
+const ProjectReadMore2 = lazy(() =>
+  import("./pages/ProjectReadMore/ProjectReadMore2.jsx")
+);
+
 const RoutesComponent = () => {
   return (
     <Routes>
@@ -28,7 +32,8 @@ const RoutesComponent = () => {
         element={<VolunteerRegistrationPage />}
       />
       <Route path="contactus" element={<ContactUs />} />
-      <Route path="projectReadMore" element={<ProjectReadMore1 />} />
+      <Route path="projectreadmore1" element={<ProjectReadMore1 />} />
+      <Route path="projectreadmore2" element={<ProjectReadMore2 />} />
 
       <Route path="*" element={<>Not found</>} />
     </Routes>
