@@ -1,5 +1,5 @@
 import "./ProjectReadMore1_Cancer.scss";
-import cancer_Readmore from "../../assets/images/cancer_Readmore.png";
+import cancer_Readmore from "../../assets/images/cancer_ReadMore.png";
 const ProjectReadMore1_Cancer = () => {
   return (
     <>
@@ -21,16 +21,19 @@ const ProjectReadMore1_Cancer = () => {
               to various remedial measures taken by doctors globally, early
               cancer detection will facilitate a cure. While this is a
               tremendous booster, this dreadful disease cannot be treated for
-              all types and stages. <br/><br/>Cancer patients not only suffer excruciating
-              pain but are often saddled with financial debt that can wipe out
-              their families. The rich may still find a recourse but it’s the
-              poor who are in a pitiable state where they simply have to let
-              their loved ones go. It’s heart-wrenching! Deeply moved by the
-              plight of poor cancer patients, Mr. V. Krishnamoorthy, an
-              extremely kind-hearted human being, floated an NGO. The name of
-              the Trust he started in 2000, is Sri Matha Trust.<br/><br/> Please include
-              message of Shri Jeyendra Periyava Ninaivyu Muthiyor Illam (Page 11
-              of Brochure){" "}
+              all types and stages. <br />
+              <br />
+              Cancer patients not only suffer excruciating pain but are often
+              saddled with financial debt that can wipe out their families. The
+              rich may still find a recourse but it’s the poor who are in a
+              pitiable state where they simply have to let their loved ones go.
+              It’s heart-wrenching! Deeply moved by the plight of poor cancer
+              patients, Mr. V. Krishnamoorthy, an extremely kind-hearted human
+              being, floated an NGO. The name of the Trust he started in 2000,
+              is Sri Matha Trust.
+              <br />
+              <br /> Please include message of Shri Jeyendra Periyava Ninaivyu
+              Muthiyor Illam (Page 11 of Brochure){" "}
             </div>
           </div>
         </div>
