@@ -27,7 +27,7 @@ const NavbarComponent = () => {
         <Link className="nav-link-text" to="">
           About Cancer
         </Link>
-        <Link className="nav-link-text" to="">
+        <Link className="nav-link-text" to="contactus">
           Contact
         </Link>
       </div>

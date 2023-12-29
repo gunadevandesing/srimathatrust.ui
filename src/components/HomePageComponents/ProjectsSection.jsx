@@ -22,16 +22,16 @@ const projectCards = [
   },
 ];
 
-const ProjectsSection = () => {
+const ProjectsSection = (props) => {
   return (
     <div className="projects-container">
       <div className="projects-content">
         <div className="projects-title">
           <span className="horizontal-line"></span>
-          PROJECTS WE HAVE DONE
+          {props.title}
         </div>
         <div className="projects-header">
-          We are creating a place where cancer patients can thrive
+          {props.header}
         </div>
         <div className="projects-cardlist">
           {projectCards.map((cardItem) => (

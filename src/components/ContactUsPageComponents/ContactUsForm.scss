@@ -1,0 +1,57 @@
+@import "../../project_constants.scss";
+.contactusForm-container {
+  padding: 50px 340px;
+  .row{
+    padding-top: 20px;
+  }
+  .multi-fields{
+    display: flex;
+    // justify-content: space-between;
+    .right-section{
+      padding-left: 50px;
+    }
+  }
+  .contactusForm-labels {
+    font-family: $primary-text;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 26px;
+    letter-spacing: 0.005em;
+    text-align: left;
+  }
+  .contactusForm-inputbox {
+    // width: auto;
+    height: 48px;
+    padding: 11px, 16px, 11px, 16px;
+    border-radius: 4px;
+    border: 1px;
+    gap: 12px;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+    linear-gradient(0deg, #e3e8ef, #e3e8ef);
+    border: 1px solid #e3e8ef;
+  }
+  .box1,.textarea{
+    width: 768px !important;
+  }
+  .box2,.box3{
+    width: 264px !important; 
+  }
+  // .box3{
+  //   width: 256px !important;
+  // }
+  .button-outer {
+    padding: 16px, 32px, 16px, 32px;
+    border-radius: 4px;
+    .send-message-button {
+      font-family: $primary-text;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 32px;
+      // letter-spacing: 0em;
+      // text-align: right;
+      background-color: $primary-yellow;
+      padding: 16px, 32px, 16px, 32px;
+      // gap: 10px;
+    }
+  }
+}

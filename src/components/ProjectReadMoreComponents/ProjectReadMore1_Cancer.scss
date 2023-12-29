@@ -1,0 +1,50 @@
+@import "../../project_constants.scss";
+.readmoreCancer-container {
+  width: 100%;
+  padding: 86px 290px;
+  .readmoreCancer-content {
+      .readmoreCancer-title {
+        display: flex;
+        align-items: center;
+        color: $primary-text;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        letter-spacing: 2px;
+
+        .horizontal-line {
+          width: 7rem;
+          border-top: 2px solid $primary-text;
+          margin-right: 1rem;
+        }
+      }
+      .readmoreCancer-textcontent {
+        margin-left: 8rem;
+        .readmoreCancer-header {
+          color: $primary-text;
+          font-size: 56px;
+          font-family: Roboto;
+          font-weight: 700;
+          line-height: 67.2px;
+          word-wrap: break-word;
+          margin-top: 2rem;
+        }
+
+        .readmoreCancer-paragraph {
+          color: $primary-text;
+          font-family: Roboto;
+          font-size: 16px;
+          font-style: normal;
+          font-weight: 400;
+          line-height: 25.6px;
+          margin-top: 14px;
+          text-align: left;
+        }
+    }
+  }
+}
+img{
+  padding-left: 186px ;
+}

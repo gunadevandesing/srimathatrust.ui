@@ -14,7 +14,7 @@ const HomePage = () => {
       <VideoSection />
       <KnowAboutUSSection />
       <WhatWeDoSection />
-      <ProjectsSection />
+      <ProjectsSection title="PROJECTS WE HAVE DONE" header="We are creating a place where cancer patients can thrive"/>
       <DonationChartSection />
       <ContributionSection />
       <EventsSection />
