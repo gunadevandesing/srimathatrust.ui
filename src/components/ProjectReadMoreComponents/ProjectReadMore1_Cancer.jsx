@@ -37,9 +37,10 @@ const ProjectReadMore1_Cancer = () => {
             </div>
           </div>
         </div>
-        {/* <img src={cancer_Readmore}/> */}
       </div>
-      <img src={cancer_Readmore} />
+      <div className="image-container">
+        <img src={cancer_Readmore} />
+      </div>
     </>
   );
 };
