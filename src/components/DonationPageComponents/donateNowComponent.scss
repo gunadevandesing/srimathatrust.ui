@@ -60,9 +60,10 @@
       width: 30rem;
       aspect-ratio: 5/4;
       border-radius: 20px;
-      background: url("../../assets/images/donate1.jpg"),
-        lightgray 50% / cover no-repeat;
+      background: url("../../assets/images/donate1.jpg");
       background-repeat: no-repeat;
+      background-position: cover;
+      background-size: contain;
     }
   }
 }
