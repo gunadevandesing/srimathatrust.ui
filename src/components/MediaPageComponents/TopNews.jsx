@@ -23,8 +23,10 @@ const TopNews = () => {
           </div>
         </div>
       </div>
-      <img src={Media2} className="media-2" />
-      <img src={Media3} className="media-3" />
+      <div className="image-container">
+        <img src={Media2} className="media-img" />
+        <img src={Media3} className="media-img1" />
+      </div>
     </div>
   );
 };
