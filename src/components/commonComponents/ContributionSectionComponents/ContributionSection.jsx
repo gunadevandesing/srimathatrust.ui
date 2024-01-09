@@ -1,5 +1,5 @@
 import "./contributionSection.scss";
-import ButtonComponent from "../ButtonComponent";
+import { Link } from "react-router-dom";
 
 const ContributionSection = () => {
   return (
@@ -10,16 +10,12 @@ const ContributionSection = () => {
           needs!
         </h2>
         <div className="button-section">
-          <ButtonComponent
-            buttonType="primary"
-            buttonText="Join as a volunteer"
-            onClick={() => {}}
-          />
-          <ButtonComponent
-            buttonType="secondary"
-            buttonText="Donate"
-            onClick={() => {}}
-          />
+          <Link className="volunteer-button" to="/volunteerregistration">
+            Join as a volunteer
+          </Link>
+          <Link className="volunteer-button donate" to="/donation">
+            Donate
+          </Link>
         </div>
       </div>
     </div>
