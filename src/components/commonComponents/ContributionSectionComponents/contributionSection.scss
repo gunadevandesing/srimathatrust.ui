@@ -30,6 +30,31 @@
       justify-content: center;
       align-items: center;
       gap: 1rem;
+
+      .volunteer-button {
+        display: inline-flex;
+        padding: 16px 32px;
+        align-items: center;
+        gap: 10px;
+
+        border: none;
+        border-radius: 4px;
+        background: $primary-yellow;
+
+        color: #000;
+        text-align: right;
+        font-family: Roboto;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        text-decoration: none;
+
+        &.donate {
+          background: #fff;
+          color: $primary-text;
+        }
+      }
     }
   }
 }

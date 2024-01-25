@@ -7,7 +7,7 @@
 
     .topnews-content {
       width: 100%;
-      
+
       .topnews-title {
         display: flex;
         align-items: center;
@@ -41,14 +41,30 @@
       }
     }
   }
-  .media-2,
-  .media-3 {
-    margin-left: 8rem;
-    padding: 30px;
-    max-width: 100%;
-    height: auto;
-  }
-  .media-3 {
-    margin-left: 18rem !important;
+  // .media-2,
+  // .media-3 {
+  //   margin-left: 8rem;
+  //   padding: 30px;
+  //   max-width: 100%;
+  //   height: auto;
+  // }
+  // .media-3 {
+  //   margin-left: 18rem !important;
+  // }
+  .image-container {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    gap: 30px;
+
+    .media-img {
+      width: 80%;
+    }
+    .media-img1 {
+      width: 60%;
+    }
   }
 }
