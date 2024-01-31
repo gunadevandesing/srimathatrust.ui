@@ -98,7 +98,7 @@ const ContactUsForm = () => {
         </div>
       </div>
 
-      <img src={Map} />
+      <img width={"100%"} src={Map} />
     </>
   );
 };
